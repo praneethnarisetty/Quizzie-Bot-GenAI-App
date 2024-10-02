@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "quizziebot",
+    "slug": "quizziebot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.jpeg",
+    "userInterfaceStyle": "light",
+    "scheme": "quizziebot", 
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.beyondlogic.quizziebot",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "608340923812-dctjjsforifedvf0fp2817vekig17hsn.apps.googleusercontent.com"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
